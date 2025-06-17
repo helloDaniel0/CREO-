@@ -18,4 +18,4 @@ Given the positions of dish and PoP, we compute the routing paths based on the s
 
 We demonstrate BPL routing computation process here. To run the routing algorithm, execute: `python bp_routing.py`. To visualize the actual routing results, you can run: `python bp_routing_plot.py`. 
 
-We compute the bandwidth of each segment along the routing path using the Shannon formula and store the results. The computations for bandwidth and propagation delay are implemented in `utility.py`. Here, we only illustrate large-scale fading (e.g., free-space path loss). You are welcome to extend the script by incorporating additional fading models such as small-scale fading or shadowing, depending on your simulation needs.
+We compute the bandwidth of each segment along the routing path using the Shannon formula and store the results. The computations for bandwidth and propagation delay are implemented in `calc_utils.py`. Here, we only illustrate large-scale fading (e.g., free-space path loss). You are welcome to extend the script by incorporating additional fading models such as small-scale fading or shadowing, depending on your simulation needs.
