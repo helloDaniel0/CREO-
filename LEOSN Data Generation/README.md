@@ -10,7 +10,7 @@ Specifically, we store the location of each node at every second over one orbita
 
 This precomputed positional data enables accurate modeling of dynamic satellite-to-GS and inter-satellite connectivity in simulations.
 
-## Step 2: Distance and Delay Generation
+## Step 2: Distance Generation
 Based on the node positions and a predefined connectivity threshold (i.e., the maximum distance at which two nodes can communicate), we calculate the distance and corresponding propagation delay between all feasible node pairs.
 
 ## Step 3: Routing Generation (Including Bandwitdh and Delay Calculation)
