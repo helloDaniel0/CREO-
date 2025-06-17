@@ -1,0 +1,3 @@
+numpy
+gymnasium
+protobuf==3.20.3

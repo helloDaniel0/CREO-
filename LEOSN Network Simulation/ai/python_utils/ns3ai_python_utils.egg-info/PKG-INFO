@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: ns3ai_python_utils
+Version: 1.0.0
+Summary: ns-3 AI Message Interface Utils for Python
+Author: Pengyu Liu and Muyuan Shen
+Author-email: muyuan_shen@hust.edu.cn
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: POSIX :: Linux
+Requires-Dist: psutil
