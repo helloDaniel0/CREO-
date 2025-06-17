@@ -20,4 +20,6 @@ We demonstrate BPL and ISL routing computation process here. To run the routing 
 ![LEOSN constellation, GS, dish, and PoP movement](starlink_with_gs.gif)
 ![BPL routing](routing.gif)
 
-We compute the bandwidth of each segment along the routing path using the Shannon formula and store the results. The computations for bandwidth and propagation delay are implemented in `calc_utils.py`. Here, we only illustrate large-scale fading (e.g., free-space path loss). You are welcome to extend the script by incorporating additional fading models such as small-scale fading or shadowing, depending on your simulation needs.
+We compute the bandwidth of each segment along the routing path using the Shannon formula and store the results. The computations for bandwidth and propagation delay are implemented in `calc_utils.py`. Here, we basically illustrate large-scale fading (e.g., free-space path loss). You can extend the script by incorporating additional fading models such as small-scale fading or shadowing, depending on your simulation needs. A handover is considered to occur whenever the routing path changes.
+
+We show a basic BPL configuration bandwidth, delay and handover event outputs in `./dataset`.
