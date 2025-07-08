@@ -1,6 +1,0 @@
-Metadata-Version: 2.1
-Name: ns3ai_gym_env
-Version: 0.0.1
-Requires-Dist: numpy
-Requires-Dist: gymnasium
-Requires-Dist: protobuf==3.20.3
