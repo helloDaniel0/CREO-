@@ -1,0 +1,19 @@
+diff --git a/src/internet/CMakeLists.txt b/src/internet/CMakeLists.txt
+--- a/src/internet/CMakeLists.txt
++++ b/src/internet/CMakeLists.txt
+@@ -95,6 +95,7 @@ set(source_files
+     model/tcp-illinois.cc
+     model/tcp-l4-protocol.cc
+     model/tcp-ledbat.cc
++    model/tcp-leocc.cc
+     model/tcp-linux-reno.cc
+     model/tcp-lp.cc
+     model/tcp-option-rfc793.cc
+@@ -220,6 +221,7 @@ set(header_files
+     model/tcp-illinois.h
+     model/tcp-l4-protocol.h
+     model/tcp-ledbat.h
++    model/tcp-leocc.h
+     model/tcp-linux-reno.h
+     model/tcp-lp.h
+     model/tcp-option-rfc793.h
