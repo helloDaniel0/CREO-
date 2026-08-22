@@ -16,7 +16,6 @@ Main targets:
 
 - `ns3ai_creo_single`: one TCP flow and one Python agent.
 - `ns3ai_creo_multi`: multiple independently controlled TCP flows.
-- `ns3ai_creo_ablation`: fixed connected-phase topology for component tests.
 - `creo-udp-handover-notification`: UDP notification/ACK/retry example.
 
 The generated and Starlink traces are installed under `dataset/`. The Python
