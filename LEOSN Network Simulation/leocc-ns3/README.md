@@ -15,6 +15,3 @@ python3 scratch/run_leocc_handover.py
 
 The controller includes startup/drain, dual bandwidth estimates, RTT-guided
 target selection, dynamic cruise, ProbeRTT, and reconfiguration adaptation.
-The exact ICMP RI detector, Kalman/MPF filters, eBPF propagation, and complete
-bottleneck-shifting mechanism are outside this reproduction; see
-`IMPLEMENTATION_STATUS.md` before describing its fidelity.
